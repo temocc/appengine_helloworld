@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('<H1>Hello world!</H1>')
+        self.response.write('<H1>Hola world!</H1>')
         self.response.write("<p>I'm ussing App Engine!</p>")
 
 app = webapp2.WSGIApplication([
